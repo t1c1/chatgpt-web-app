@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+.venv/
+venv/
+
+# Node
+node_modules/
+frontend/build/
+frontend/.next/
+
+# Environment & secrets
+.env
+.env.local
+backend/.env
+
+# Data & uploads
+uploads/
+scripts/uploads_inbox/
+db/
+logs/
+
+# Databases
+*.db
+*.db-shm
+*.db-wal
+
+# Static files (generated)
+backend/static/
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+.cursor/
+.claude/
+
